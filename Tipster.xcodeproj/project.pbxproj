@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A831196419AB40B400712283 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A831196319AB40B400712283 /* SettingsViewController.swift */; };
 		A8A77A2119AB00D300251603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A77A2019AB00D300251603 /* AppDelegate.swift */; };
 		A8A77A2319AB00D300251603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A77A2219AB00D300251603 /* ViewController.swift */; };
 		A8A77A2619AB00D300251603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A77A2419AB00D300251603 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A831196319AB40B400712283 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A8A77A1B19AB00D300251603 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A77A1F19AB00D300251603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8A77A2019AB00D300251603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				A8A77A2419AB00D300251603 /* Main.storyboard */,
 				A8A77A2719AB00D300251603 /* Images.xcassets */,
 				A8A77A1E19AB00D300251603 /* Supporting Files */,
+				A831196319AB40B400712283 /* SettingsViewController.swift */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				A8A77A2319AB00D300251603 /* ViewController.swift in Sources */,
 				A8A77A2119AB00D300251603 /* AppDelegate.swift in Sources */,
+				A831196419AB40B400712283 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				A8A77A3919AB00D300251603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8A77A3A19AB00D300251603 /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				A8A77A3C19AB00D300251603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
